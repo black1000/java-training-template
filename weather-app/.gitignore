@@ -13,3 +13,7 @@ out/
 
 ### Application Properties ###
 application-local.properties
+
+/bin/
+hs_err_pid*.log
+replay_pid*.log

@@ -1,0 +1,192 @@
+{
+  "info": {
+    "_postman_id": "b1c1e1d2-8f0a-4fa5-b7bc-63eb31030270",
+    "name": "Weather App API Tests",
+    "description": "### Welcome to Postman! This is your first collection.\n\nCollections are your starting point for building and testing APIs. You can use this one to:\n\n• Group related requests  \n• Test your API in real-world scenarios  \n• Document and share your requests\n\nUpdate the name and overview whenever you’re ready to make it yours.\n\n[Learn more about Postman Collections.](https://learning.postman.com/docs/collections/collections-overview/)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "58801838",
+    "_collection_link": "https://go.postman.co/collection/58801838-b1c1e1d2-8f0a-4fa5-b7bc-63eb31030270?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Tokyo Weekly Forecast",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {\n    pm.response.to.have.status(200);\n});"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.open-meteo.com/v1/forecast?latitude=35.6895&longitude=139.6917&daily=temperature_2m_max,temperature_2m_min,weathercode,precipitation_sum&timezone=Asia/Tokyo&forecast_days=7",
+          "protocol": "https",
+          "host": [
+            "api",
+            "open-meteo",
+            "com"
+          ],
+          "path": [
+            "v1",
+            "forecast"
+          ],
+          "query": [
+            {
+              "key": "latitude",
+              "value": "35.6895"
+            },
+            {
+              "key": "longitude",
+              "value": "139.6917"
+            },
+            {
+              "key": "daily",
+              "value": "temperature_2m_max,temperature_2m_min,weathercode,precipitation_sum"
+            },
+            {
+              "key": "timezone",
+              "value": "Asia/Tokyo"
+            },
+            {
+              "key": "forecast_days",
+              "value": "7"
+            }
+          ]
+        },
+        "description": "This is a GET request and it is used to \"get\" data from an endpoint. There is no request body for a GET request, but you can use query parameters to help specify the resource you want data on (e.g., in this request, we have `id=1`).\n\nA successful GET response will have a `200 OK` status, and should include some kind of response body - for example, HTML web content or JSON data."
+      },
+      "response": []
+    },
+    {
+      "name": "Tokyo Current Weather",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {\n    pm.response.to.have.status(200);\n});"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.open-meteo.com/v1/forecast?latitude=35.6895&longitude=139.6917&current=temperature_2m,weathercode,windspeed_10m,relativehumidity_2m&timezone=Asia/Tokyo",
+          "protocol": "https",
+          "host": [
+            "api",
+            "open-meteo",
+            "com"
+          ],
+          "path": [
+            "v1",
+            "forecast"
+          ],
+          "query": [
+            {
+              "key": "latitude",
+              "value": "35.6895"
+            },
+            {
+              "key": "longitude",
+              "value": "139.6917"
+            },
+            {
+              "key": "current",
+              "value": "temperature_2m,weathercode,windspeed_10m,relativehumidity_2m"
+            },
+            {
+              "key": "timezone",
+              "value": "Asia/Tokyo"
+            }
+          ]
+        },
+        "description": "This is a GET request and it is used to \"get\" data from an endpoint. There is no request body for a GET request, but you can use query parameters to help specify the resource you want data on (e.g., in this request, we have `id=1`).\n\nA successful GET response will have a `200 OK` status, and should include some kind of response body - for example, HTML web content or JSON data."
+      },
+      "response": []
+    },
+    {
+      "name": "Hokkaido Current Weather",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.open-meteo.com/v1/forecast?latitude=43.064&longitude=141.347&current=temperature_2m,weathercode&timezone=Asia/Tokyo",
+          "protocol": "https",
+          "host": [
+            "api",
+            "open-meteo",
+            "com"
+          ],
+          "path": [
+            "v1",
+            "forecast"
+          ],
+          "query": [
+            {
+              "key": "latitude",
+              "value": "43.064"
+            },
+            {
+              "key": "longitude",
+              "value": "141.347"
+            },
+            {
+              "key": "current",
+              "value": "temperature_2m,weathercode"
+            },
+            {
+              "key": "timezone",
+              "value": "Asia/Tokyo"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Invalid Latitude Test",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.open-meteo.com/v1/forecast?latitude=200&longitude=139.6917&current=temperature_2m",
+          "protocol": "https",
+          "host": [
+            "api",
+            "open-meteo",
+            "com"
+          ],
+          "path": [
+            "v1",
+            "forecast"
+          ],
+          "query": [
+            {
+              "key": "latitude",
+              "value": "200"
+            },
+            {
+              "key": "longitude",
+              "value": "139.6917"
+            },
+            {
+              "key": "current",
+              "value": "temperature_2m"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
