@@ -66,9 +66,10 @@
 - エラー時の適切なメッセージ表示
 
 ### 3.3 セキュリティ
-- SQLインジェクション対策
-- XSS対策
-- CSRF対策（Spring Securityで対応）
+- HTTPS通信（本番環境）
+- SQLインジェクション対策（Spring Data JPAを使用）
+- XSS対策（Thymeleafのエスケープ機能を使用）
+- CSRF対策はSpring Security導入時に検討する
 
 ### 3.4 互換性
 - ブラウザ対応: Chrome, Firefox, Edge（最新版）

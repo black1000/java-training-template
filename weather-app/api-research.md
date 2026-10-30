@@ -53,6 +53,9 @@ daily=temperature_2m_max,temperature_2m_min,weathercode,precipitation_sum
 ### その他のパラメータ
 - `timezone`: タイムゾーン（例: Asia/Tokyo）
 - `forecast_days`: 予報日数（1-16日、デフォルト7日）
+- `wind_speed_unit`: 風速の単位（`ms` を指定して m/s で取得）
+  - デフォルト: km/h
+  - 本アプリでは `ms` を指定し、m/s で統一する
 
 ## 天気コード（WMO Weather Code）
 
@@ -73,7 +76,7 @@ daily=temperature_2m_max,temperature_2m_min,weathercode,precipitation_sum
 ## リクエスト例
 
 ### 東京の現在の天気
-GET https://api.open-meteo.com/v1/forecast?latitude=35.6895&longitude=139.6917&current=temperature_2m,weathercode,windspeed_10m,relativehumidity_2m&timezone=Asia/Tokyo
+GET https://api.open-meteo.com/v1/forecast?latitude=35.6895&longitude=139.6917&current=temperature_2m,weathercode,windspeed_10m,relativehumidity_2m&timezone=Asia/Tokyo&wind_speed_unit=ms
 
 
 ### 東京の週間天気予報
@@ -81,7 +84,7 @@ GET https://api.open-meteo.com/v1/forecast?latitude=35.6895&longitude=139.6917&d
 
 
 ### 現在 + 週間予報
-GET https://api.open-meteo.com/v1/forecast?latitude=35.6895&longitude=139.6917&current=temperature_2m,weathercode,windspeed_10m,relativehumidity_2m&daily=temperature_2m_max,temperature_2m_min,weathercode,precipitation_sum&timezone=Asia/Tokyo&forecast_days=7
+GET https://api.open-meteo.com/v1/forecast?latitude=35.6895&longitude=139.6917&current=temperature_2m,weathercode,windspeed_10m,relativehumidity_2m&daily=temperature_2m_max,temperature_2m_min,weathercode,precipitation_sum&timezone=Asia/Tokyo&forecast_days=7&wind_speed_unit=ms
 
 
 ## レスポンス例

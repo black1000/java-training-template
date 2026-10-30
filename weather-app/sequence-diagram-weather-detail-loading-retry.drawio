@@ -1,0 +1,461 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="ページ-1" id="FPAPzr0agXuLLR7IkoAW">
+    <mxGraphModel dx="1997" dy="1521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-2" edge="1" parent="1" source="KSUYwYYdI_7MSXk2FqC6-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="KSUYwYYdI_7MSXk2FqC6-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95.00000000000023" y="821.1973413927801" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;labelPerimeter=1;" value="ユーザー" vertex="1">
+          <mxGeometry height="60" width="30" x="80" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;labelPerimeter=1;" value="ユーザー" vertex="1">
+          <mxGeometry height="60" width="30" x="80" y="791.197341" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; text-align: start; white-space: nowrap; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0));&quot;&gt;ブラウザ&lt;/span&gt;" vertex="1">
+          <mxGeometry height="760" width="100" x="280" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-9" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; text-align: start; white-space: nowrap; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0));&quot;&gt;ブラウザ&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="791.2" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-10" edge="1" parent="1" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="80" y="130" as="sourcePoint" />
+            <mxPoint x="330" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; text-align: start; white-space: nowrap; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0));&quot;&gt;東京都カードクリック&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="180" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-12" edge="1" parent="1" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="335" y="780" as="sourcePoint" />
+            <mxPoint x="85" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; text-align: start; white-space: nowrap; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0));&quot;&gt;天気詳細表示&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="170" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-15" edge="1" parent="1" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry relative="1" width="160" x="-0.1837" as="geometry">
+            <Array as="points">
+              <mxPoint x="394" y="130" />
+            </Array>
+            <mxPoint x="334" y="130" as="sourcePoint" />
+            <mxPoint x="549.5" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; text-align: start; white-space: nowrap; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0));&quot;&gt;GET /weather/13&lt;br&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="410" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-17" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; text-align: start; white-space: nowrap; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0));&quot;&gt;WeatherController&lt;/span&gt;" vertex="1">
+          <mxGeometry height="760" width="100" x="500" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-18" parent="1" style="html=1;whiteSpace=wrap;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; text-align: start; white-space: nowrap; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0));&quot;&gt;WeatherController&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="490" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-21" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0)); display: inline !important;&quot;&gt;1. 都道府県情報取得&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="180" x="470" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-22" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0)); display: inline !important;&quot;&gt;JavaScriptで画面更新&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="170" x="260" y="726" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-23" edge="1" parent="1" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry relative="1" width="160" x="-0.1683" as="geometry">
+            <Array as="points">
+              <mxPoint x="405.5" y="761" />
+            </Array>
+            <mxPoint x="325.5" y="751" as="sourcePoint" />
+            <mxPoint x="325" y="761" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-25" edge="1" parent="1" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry relative="1" width="160" x="-0.0893" as="geometry">
+            <Array as="points">
+              <mxPoint x="460.25" y="690" />
+              <mxPoint x="390.25" y="690" />
+            </Array>
+            <mxPoint x="549.7499999999998" y="690" as="sourcePoint" />
+            <mxPoint x="320.25" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0)); display: inline !important;&quot;&gt;ローディング終了&lt;/span&gt;" link="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(13, 17, 23); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;weather-detail.html&lt;/span&gt;" id="KSUYwYYdI_7MSXk2FqC6-26">
+          <mxCell parent="1" style="text;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry height="40" width="130" x="370" y="660" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-27" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0)); display: inline !important;&quot;&gt;JSON返却&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="80" x="518" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-28" edge="1" parent="1" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0.522;entryY=0.833;entryDx=0;entryDy=0;entryPerimeter=0;" target="KSUYwYYdI_7MSXk2FqC6-17" value="">
+          <mxGeometry relative="1" width="160" x="-0.2348" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="650" />
+            </Array>
+            <mxPoint x="550" y="640" as="sourcePoint" />
+            <mxPoint x="650" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-30" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=-50.000000000000114;defaultLabelBackgroundColor=page;" target="KSUYwYYdI_7MSXk2FqC6-29" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; text-align: start; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0));&quot;&gt;findById(13)&lt;/span&gt;">
+          <mxGeometry relative="1" x="0.402" y="5" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="700" y="220" />
+            </Array>
+            <mxPoint x="550" y="220" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-32" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0)); display: inline !important;&quot;&gt;2. 天気情報取得&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="150" x="485" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-33" edge="1" parent="1" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;defaultLabelBackgroundColor=page;" target="KSUYwYYdI_7MSXk2FqC6-37" value="">
+          <mxGeometry relative="1" width="160" x="-0.8284" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="400" />
+            </Array>
+            <mxPoint x="550" y="400" as="sourcePoint" />
+            <mxPoint x="1000" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-34" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0)); display: inline !important;&quot;&gt;getWeather(prefecture)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="200" x="700" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-35" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; text-align: start; white-space: nowrap; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0));&quot;&gt;PrefectureService&lt;/span&gt;" vertex="1">
+          <mxGeometry height="760" width="100" x="735" y="31.2" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-29" parent="KSUYwYYdI_7MSXk2FqC6-35" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="140" width="10" x="45" y="158.8" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-36" parent="1" style="html=1;whiteSpace=wrap;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; text-align: start; white-space: nowrap; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0));&quot;&gt;PrefectureService&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="725" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-37" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; text-align: start; white-space: nowrap; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0));&quot;&gt;WeatherService&lt;/span&gt;" vertex="1">
+          <mxGeometry height="786.2" width="100" x="990" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-38" parent="1" style="html=1;whiteSpace=wrap;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; text-align: start; white-space: nowrap; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0));&quot;&gt;WeatherService&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="985" y="801.2" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-39" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0)); display: inline !important;&quot;&gt;WeatherDetailDto&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="160" x="715" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-40" edge="1" parent="1" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1030" y="584.9999999999999" as="sourcePoint" />
+            <mxPoint x="540" y="584.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-41" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0)); display: inline !important;&quot;&gt;4. DTO変換&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="110" x="980" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-42" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0)); display: inline !important;&quot;&gt;toWeatherDetailDto(response)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="250" x="960" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-43" edge="1" parent="1" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;defaultLabelBackgroundColor=page;" target="KSUYwYYdI_7MSXk2FqC6-37" value="">
+          <mxGeometry relative="1" width="160" x="-0.3785" as="geometry">
+            <Array as="points">
+              <mxPoint x="1120" y="540" />
+              <mxPoint x="1170" y="550" />
+              <mxPoint x="1160" y="560" />
+              <mxPoint x="1100" y="570" />
+            </Array>
+            <mxPoint x="1040" y="550" as="sourcePoint" />
+            <mxPoint x="1130" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-44" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0)); display: inline !important;&quot;&gt;3. データベースに保存&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="200" x="970" y="408.1" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-45" edge="1" parent="1" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;defaultLabelBackgroundColor=page;" target="KSUYwYYdI_7MSXk2FqC6-58" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1030" y="460" as="sourcePoint" />
+            <mxPoint x="1671.01" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-46" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0)); display: inline !important;&quot;&gt;save(weatherRecord)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="180" x="1310" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-47" edge="1" parent="1" source="KSUYwYYdI_7MSXk2FqC6-56" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry relative="1" width="160" x="-0.363" as="geometry">
+            <Array as="points">
+              <mxPoint x="1260" y="379.5" />
+            </Array>
+            <mxPoint x="1530" y="379.5" as="sourcePoint" />
+            <mxPoint x="1040" y="379.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-48" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0)); display: inline !important;&quot;&gt;OpenMeteoResponseDto&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="200" x="1141" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-49" edge="1" parent="1" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;defaultLabelBackgroundColor=page;" target="KSUYwYYdI_7MSXk2FqC6-56" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1040" y="291" as="sourcePoint" />
+            <mxPoint x="1530" y="291" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-50" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0)); display: inline !important;&quot;&gt;fetchWeather(35.689, 139.692)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="260" x="1111" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-51" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0)); display: inline !important;&quot;&gt;Prefecture(id=13, name=&quot;東京都&quot;, lat=35.689, lon=139.692)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="460" x="1141" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-52" edge="1" parent="1" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points" />
+            <mxPoint x="2435" y="230" as="sourcePoint" />
+            <mxPoint x="800.0000000000002" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-53" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0)); display: inline !important;&quot;&gt;SELECT * FROM prefectures WHERE id=13&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="330" x="1160" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-54" edge="1" parent="1" source="KSUYwYYdI_7MSXk2FqC6-29" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="780" y="209.50000000000006" as="sourcePoint" />
+            <mxPoint x="2415" y="209.50000000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-56" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; text-align: start; white-space: nowrap; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0));&quot;&gt;OpenMeteoClient&lt;/span&gt;" vertex="1">
+          <mxGeometry height="775" width="100" x="1350" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-57" parent="1" style="html=1;whiteSpace=wrap;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; text-align: start; white-space: nowrap; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0));&quot;&gt;OpenMeteoClient&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="1345" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-58" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; text-align: start; white-space: nowrap; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0));&quot;&gt;WeatherRecordRepository&lt;/span&gt;" vertex="1">
+          <mxGeometry height="775" width="100" x="1720" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-59" parent="1" style="html=1;whiteSpace=wrap;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; text-align: start; white-space: nowrap; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0));&quot;&gt;WeatherRecordRepository&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="1710" y="801.2" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-60" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0)); display: inline !important;&quot;&gt;GET /v1/forecast?lat=35.689&amp;amp;lon=139.692¤t=...&amp;amp;daily=...&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="450" x="1540" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-61" edge="1" parent="1" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;defaultLabelBackgroundColor=page;" target="KSUYwYYdI_7MSXk2FqC6-64" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1400" y="350" as="sourcePoint" />
+            <mxPoint x="1770" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-62" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0)); display: inline !important;&quot;&gt;OpenMeteoResponseDto (current + daily)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="330" x="1620" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-63" edge="1" parent="1" source="KSUYwYYdI_7MSXk2FqC6-64" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry relative="1" width="160" x="0.3074" as="geometry">
+            <Array as="points">
+              <mxPoint x="1630" y="408.1" />
+            </Array>
+            <mxPoint x="1770" y="408.6" as="sourcePoint" />
+            <mxPoint x="1410" y="408.1" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-64" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; text-align: start; white-space: nowrap; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0));&quot;&gt;Open-Meteo API&lt;/span&gt;" vertex="1">
+          <mxGeometry height="795" width="100" x="2068" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ejdzCpSKmeRrA6mEr25L-13" edge="1" parent="1" source="KSUYwYYdI_7MSXk2FqC6-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2122.867469879518" y="851.6265060240964" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-65" parent="1" style="html=1;whiteSpace=wrap;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; text-align: start; white-space: nowrap; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0));&quot;&gt;Open-Meteo API&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="2068" y="801.2" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-66" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; text-align: start; white-space: nowrap; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0));&quot;&gt;Database&lt;/span&gt;" vertex="1">
+          <mxGeometry height="775" width="100" x="2370" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-67" parent="1" style="html=1;whiteSpace=wrap;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; text-align: start; white-space: nowrap; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0));&quot;&gt;Database&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="2365" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-68" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0)); display: inline !important;&quot;&gt;INSERT INTO weather_records (...)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="280" x="2005" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-69" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0)); display: inline !important;&quot;&gt;INSERT INTO daily_forecasts (...)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="270" x="2010" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-70" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0)); display: inline !important;&quot;&gt;saved&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="70" x="2098" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-71" edge="1" parent="1" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;defaultLabelBackgroundColor=page;" target="KSUYwYYdI_7MSXk2FqC6-66" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1770" y="510" as="sourcePoint" />
+            <mxPoint x="1930" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-72" edge="1" parent="1" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;defaultLabelBackgroundColor=page;" target="KSUYwYYdI_7MSXk2FqC6-66" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1770" y="584" as="sourcePoint" />
+            <mxPoint x="1930" y="584" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSUYwYYdI_7MSXk2FqC6-73" edge="1" parent="1" source="KSUYwYYdI_7MSXk2FqC6-66" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1930" y="680" as="sourcePoint" />
+            <mxPoint x="1770" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ejdzCpSKmeRrA6mEr25L-2" parent="1" style="text;whiteSpace=wrap;html=1;fillColor=default;" value="ローディング表示" vertex="1">
+          <mxGeometry height="40" width="130" x="260" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ejdzCpSKmeRrA6mEr25L-3" parent="1" style="text;whiteSpace=wrap;html=1;" value="AJAXで天気情報要求" vertex="1">
+          <mxGeometry height="40" width="150" x="390" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ejdzCpSKmeRrA6mEr25L-4" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry relative="1" width="160" x="0.0023" as="geometry">
+            <Array as="points">
+              <mxPoint x="450.25" y="189" />
+            </Array>
+            <mxPoint x="330.25" y="189" as="sourcePoint" />
+            <mxPoint x="549.75" y="189" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ejdzCpSKmeRrA6mEr25L-5" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(237, 237, 237); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(0, 0, 0); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;ローディング画面返却&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="190" x="370" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ejdzCpSKmeRrA6mEr25L-6" edge="1" parent="1" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry relative="1" width="160" x="-0.0893" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="150" />
+              <mxPoint x="390" y="150" />
+            </Array>
+            <mxPoint x="550" y="150" as="sourcePoint" />
+            <mxPoint x="320" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ejdzCpSKmeRrA6mEr25L-9" edge="1" parent="1" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;defaultLabelBackgroundColor=page;" target="KSUYwYYdI_7MSXk2FqC6-29" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="780" y="209.50000000000006" as="sourcePoint" />
+            <mxPoint x="2415" y="209.50000000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ejdzCpSKmeRrA6mEr25L-10" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(0, 0, 0));&quot;&gt;天気詳細画面を更新&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="140" x="280" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="ejdzCpSKmeRrA6mEr25L-14" parent="1" style="html=1;whiteSpace=wrap;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; text-align: start; white-space: nowrap; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0));&quot;&gt;Open-Meteo API&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="2068" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="ejdzCpSKmeRrA6mEr25L-15" edge="1" parent="1" source="ejdzCpSKmeRrA6mEr25L-14" style="endArrow=none;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="KSUYwYYdI_7MSXk2FqC6-65" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1880" y="1160" as="sourcePoint" />
+            <mxPoint x="1930" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ejdzCpSKmeRrA6mEr25L-16" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2419.5" y="1319" as="sourcePoint" />
+            <mxPoint x="2419.5" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ejdzCpSKmeRrA6mEr25L-17" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1769.5" y="1319" as="sourcePoint" />
+            <mxPoint x="1769.5" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ejdzCpSKmeRrA6mEr25L-18" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1399.5" y="1320.2" as="sourcePoint" />
+            <mxPoint x="1399.5" y="851.2" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ejdzCpSKmeRrA6mEr25L-19" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1039.5" y="1319" as="sourcePoint" />
+            <mxPoint x="1039.5" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ejdzCpSKmeRrA6mEr25L-20" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="784.5" y="1329" as="sourcePoint" />
+            <mxPoint x="784.5" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ejdzCpSKmeRrA6mEr25L-21" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="549.5" y="1320.2" as="sourcePoint" />
+            <mxPoint x="549.5" y="851.2" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ejdzCpSKmeRrA6mEr25L-22" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="329.5" y="1320.2" as="sourcePoint" />
+            <mxPoint x="329.5" y="851.2" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ejdzCpSKmeRrA6mEr25L-23" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="94.5" y="1339" as="sourcePoint" />
+            <mxPoint x="94.5" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ejdzCpSKmeRrA6mEr25L-24" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;labelPerimeter=1;" value="ユーザー" vertex="1">
+          <mxGeometry height="60" width="30" x="80" y="1340" as="geometry" />
+        </mxCell>
+        <mxCell id="ejdzCpSKmeRrA6mEr25L-25" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; text-align: start; white-space: nowrap; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0));&quot;&gt;ブラウザ&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="ejdzCpSKmeRrA6mEr25L-26" parent="1" style="html=1;whiteSpace=wrap;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; text-align: start; white-space: nowrap; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0));&quot;&gt;WeatherController&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="495" y="1325" as="geometry" />
+        </mxCell>
+        <mxCell id="ejdzCpSKmeRrA6mEr25L-27" parent="1" style="html=1;whiteSpace=wrap;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; text-align: start; white-space: nowrap; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0));&quot;&gt;PrefectureService&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="730" y="1330" as="geometry" />
+        </mxCell>
+        <mxCell id="ejdzCpSKmeRrA6mEr25L-28" parent="1" style="html=1;whiteSpace=wrap;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; text-align: start; white-space: nowrap; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0));&quot;&gt;WeatherService&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="985" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="ejdzCpSKmeRrA6mEr25L-29" parent="1" style="html=1;whiteSpace=wrap;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; text-align: start; white-space: nowrap; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0));&quot;&gt;OpenMeteoClient&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="1345" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="ejdzCpSKmeRrA6mEr25L-30" parent="1" style="html=1;whiteSpace=wrap;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; text-align: start; white-space: nowrap; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0));&quot;&gt;WeatherRecordRepository&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="1710" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="ejdzCpSKmeRrA6mEr25L-31" parent="1" style="html=1;whiteSpace=wrap;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; text-align: start; white-space: nowrap; background-color: light-dark(rgb(13, 17, 23), rgb(0, 0, 0));&quot;&gt;Database&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="2365" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="ejdzCpSKmeRrA6mEr25L-32" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" value="API取得失敗" vertex="1">
+          <mxGeometry height="370" width="2435" x="40" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="ejdzCpSKmeRrA6mEr25L-33" parent="ejdzCpSKmeRrA6mEr25L-32" style="text;whiteSpace=wrap;html=1;" value="API取得失敗" vertex="1">
+          <mxGeometry height="40" width="100" x="1900" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ejdzCpSKmeRrA6mEr25L-34" edge="1" parent="ejdzCpSKmeRrA6mEr25L-32" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="2080" y="290" as="sourcePoint" />
+            <mxPoint x="500" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ejdzCpSKmeRrA6mEr25L-35" parent="ejdzCpSKmeRrA6mEr25L-32" style="text;whiteSpace=wrap;html=1;" value="エラー情報返却" vertex="1">
+          <mxGeometry height="40" width="120" x="390" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="ejdzCpSKmeRrA6mEr25L-36" edge="1" parent="ejdzCpSKmeRrA6mEr25L-32" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry relative="1" width="160" x="-0.0893" as="geometry">
+            <Array as="points">
+              <mxPoint x="420.5" y="340" />
+              <mxPoint x="350.5" y="340" />
+            </Array>
+            <mxPoint x="509.9999999999998" y="340" as="sourcePoint" />
+            <mxPoint x="280.5" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ejdzCpSKmeRrA6mEr25L-37" parent="ejdzCpSKmeRrA6mEr25L-32" style="text;whiteSpace=wrap;html=1;fillColor=default;" value="エラーメッセージ表示" vertex="1">
+          <mxGeometry height="40" width="150" x="240" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="ejdzCpSKmeRrA6mEr25L-38" parent="ejdzCpSKmeRrA6mEr25L-32" style="text;whiteSpace=wrap;html=1;fillColor=default;" value="「再試行」をクリック" vertex="1">
+          <mxGeometry height="40" width="150" x="10" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="ejdzCpSKmeRrA6mEr25L-39" parent="1" style="text;whiteSpace=wrap;html=1;" value="AJAXで天気情報を再要求" vertex="1">
+          <mxGeometry height="40" width="170" x="370" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="ejdzCpSKmeRrA6mEr25L-40" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry relative="1" width="160" x="0.0023" as="geometry">
+            <Array as="points">
+              <mxPoint x="450.5" y="915" />
+            </Array>
+            <mxPoint x="330.5" y="915" as="sourcePoint" />
+            <mxPoint x="550" y="915" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

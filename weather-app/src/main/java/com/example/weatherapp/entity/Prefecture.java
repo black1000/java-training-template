@@ -23,15 +23,19 @@ public class Prefecture {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(nullable = false, length = 10)
     private String name;
 
-    @Column(name = "name_en")
+    @Column(name = "name_en", nullable = false, length = 50)
     private String nameEn;
 
+    @Column(nullable = false)
     private Double latitude;
 
+    @Column(nullable = false)
     private Double longitude;
 
+    @Column(nullable = false, length = 20)
     private String region;
 
     @Column(name = "created_at", insertable = false, updatable = false)
