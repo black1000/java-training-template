@@ -25,6 +25,7 @@ public class PrefectureTestController {
 
     @GetMapping("/prefectures/region/{region}")
     public List<Prefecture> getByRegion(@PathVariable("region") String region) {
-        return prefectureRepository.findByRegion(region);
+        return prefectureRepository.findByRegionOrderById(region);
+        // findByRegionOrderById、 関東などを取得したときid 順で返るようになる
     }
 }
