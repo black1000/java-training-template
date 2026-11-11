@@ -60,7 +60,7 @@ public class WeatherMapper {
         String[] weekNames = {"月", "火", "水", "木", "金", "土", "日"};
         //String dayOfWeek = weekNames[forecast.getForecastDate().getDayOfWeek().getValue()];
         /*
-        getValue()月=1～日=7、配列の添字 0～6 と1つズレ 
+        getValue()月=1～日=7、配列の添字 0～6 と1つズレ
         配列の添字に合わせて-1にする*/
 
     String dayOfWeek = weekNames[

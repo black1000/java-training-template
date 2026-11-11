@@ -3,6 +3,7 @@ package com.example.weatherapp.repository;
 import com.example.weatherapp.entity.Prefecture;
 import com.example.weatherapp.repository.PrefectureRepository;
 
+
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
