@@ -10,7 +10,7 @@ import java.time.format.DateTimeFormatter;
 @Controller
 public class HelloController {
 
-    @GetMapping("/")
+    @GetMapping("/hello")
     public String hello(Model model) {
         String currentTime = LocalDateTime.now()
                 .format(DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss"));
